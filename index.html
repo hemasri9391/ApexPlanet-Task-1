@@ -1,0 +1,128 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>Welcome to Web Wonders!</title>
+  <style>
+    body {
+      margin: 0;
+      padding: 0;
+      font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+      background: linear-gradient(135deg, #f8f9fa, #e9ecef);
+      color: #212529;
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+      min-height: 100vh;
+    }
+
+    header {
+      background-color: #343a40;
+      color: #ffffff;
+      width: 100%;
+      padding: 20px;
+      text-align: center;
+      box-shadow: 0 4px 8px rgba(0,0,0,0.2);
+    }
+
+    header h1 {
+      margin: 0;
+      font-size: 2.5rem;
+      letter-spacing: 1px;
+    }
+
+    main {
+      max-width: 800px;
+      padding: 30px;
+      text-align: center;
+    }
+
+    main p {
+      font-size: 1.2rem;
+      line-height: 1.6;
+      margin: 20px 0;
+    }
+
+    img {
+      max-width: 100%;
+      height: auto;
+      border-radius: 12px;
+      box-shadow: 0 4px 10px rgba(0,0,0,0.2);
+    }
+
+    a {
+      display: inline-block;
+      margin: 20px 0;
+      font-weight: bold;
+      color: #007bff;
+      text-decoration: none;
+      transition: color 0.3s ease;
+    }
+
+    a:hover {
+      color: #0056b3;
+    }
+
+    button {
+      padding: 15px 30px;
+      font-size: 1rem;
+      background: #28a745;
+      color: #fff;
+      border: none;
+      border-radius: 8px;
+      cursor: pointer;
+      transition: background 0.3s ease;
+      margin-top: 20px;
+      box-shadow: 0 4px 8px rgba(0,0,0,0.2);
+    }
+
+    button:hover {
+      background: #218838;
+    }
+
+    footer {
+      margin-top: auto;
+      background: #343a40;
+      color: #ffffff;
+      width: 100%;
+      padding: 10px;
+      text-align: center;
+      font-size: 0.9rem;
+    }
+  </style>
+</head>
+<body>
+  <header>
+    <h1>🌐 Web Wonders</h1>
+  </header>
+
+  <main>
+    <h2>Discover the Magic of Web Development</h2>
+    <p>
+      This page showcases the beauty of basic web design using HTML, CSS, and JavaScript.
+      Start your journey into coding with a colorful, creative twist!
+    </p>
+    
+    <img src="Web Development Illustration.png" alt="Web Development Illustration" />
+
+    <p>
+      Want to learn more? Visit the
+      <a href="https://developer.mozilla.org/en-US/docs/Learn" target="_blank">MDN Web Docs</a>
+      to explore detailed tutorials.
+    </p>
+
+    <button onclick="showMessage()">Click Me for a Surprise!</button>
+  </main>
+
+  <footer>
+    &copy; 2025 Web Wonders | Designed with ❤️ for curious minds.
+  </footer>
+
+  <script>
+    function showMessage() {
+      alert("✨ Welcome to the world of Web Development! Keep exploring & creating. 🚀");
+    }
+  </script>
+</body>
+</html>
